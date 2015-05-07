@@ -17,15 +17,8 @@ if true
     gem 'scrivito_sdk'
     gem "scrivito_editors"
     gem "scrivito_content_browser"
+    gem "scrivito_development"
   end
-
-  gem 'less-rails'
-  gem 'quiet_assets'
-  gem 'therubyracer', require: 'v8'
-  gem 'underscore-rails'
-  gem 'momentjs-rails'
-  gem 'handlebars_assets', '~> 0.12.0'
-
 else
   # Scrivito Gems
   gem 'scrivito', '0.42.1'
