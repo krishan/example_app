@@ -38,3 +38,5 @@ group :development, :test do
   gem 'rspec-rails'
 end
 
+gem 'scrivito-tab-group-widget', require: 'scrivito_tab_group_widget',
+  github: 'kostia/scrivito-tab-group-widget'
