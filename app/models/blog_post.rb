@@ -12,4 +12,8 @@ class BlogPost < Obj
   def menu_title
     self[:page_title].presence || overview_title
   end
+
+  def slug
+    "/blog/#{super}"
+  end
 end
