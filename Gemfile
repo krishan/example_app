@@ -25,11 +25,14 @@ else
 end
 
 group :development, :test do
-  gem 'spring'
+  # gem 'spring'
   gem 'pry-rails'
   gem 'dotenv-rails'
   gem 'rspec-rails'
 end
 
+gem 'thin'
+
 gem 'scrivito-tab-group-widget', require: 'scrivito_tab_group_widget',
   github: 'kostia/scrivito-tab-group-widget'
+

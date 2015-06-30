@@ -1,1 +1,9 @@
-<%= scrivito_image_tag widget, :image, class: 'image-widget' %>
+<%= scrivito_image_tag(
+    widget,
+    :image,
+    {
+      class: 'image-widget',
+      srcset: srcset_for(widget.image.binary),
+      src: "about:blank"
+    },
+    transform: {width: 100})  %>
